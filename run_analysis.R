@@ -2,8 +2,8 @@
 # if (!file.exists("./data")) {dir.create(".data")}
 # url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # download.file(url,"./data/assignmentzip")
-# list
-# unzip(zipfile = "./assignmentzip")
+list
+unzip(zipfile = "./assignmentzip")
 x_test <- read.table("./data/UCI HAR Dataset/test/X_test.txt",header =FALSE,sep = "")
 y_test <- read.table("./data/UCI HAR Dataset/test/y_test.txt",header =FALSE,sep = "")
 colnames(y_test) <- c("y")
