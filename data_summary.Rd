@@ -2,10 +2,10 @@
 \alias{data_summary}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+%%  
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+%% This data set holds the mean of six variables for 6 differnt activities and 30 subjects.
 }
 \usage{data("data_summary")}
 \format{
@@ -25,7 +25,7 @@
 %%  ~~ If necessary, more details than the __description__ above ~~
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+%% http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
